@@ -1,0 +1,87 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.11.3 (Ubuntu Java 21.0.8)
+[debug] Load.defaultLoad until apply took 270.065765ms
+[debug]                 Load.loadUnit: plugins took 246.985181ms
+[debug]                 Load.loadUnit: defsScala took 0.672772ms
+[debug] [Loading] Scanning directory /home/inf/Documents/inf/Datenstrukturen/project/project
+[debug]                   Load.loadUnit: mkEval took 13.664195ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/inf/Documents/inf/Datenstrukturen/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 33.388115 ms
+[info] loading settings for project datenstrukturen-build-build from metals.sbt...
+[debug]                     Load.resolveProject(datenstrukturen-build-build) took 75.763752ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id datenstrukturen-build-build, base: /home/inf/Documents/inf/Datenstrukturen/project/project, plugins: List(<none>))) took 149.375742ms
+[debug] [Loading] Done in /home/inf/Documents/inf/Datenstrukturen/project/project, returning: (datenstrukturen-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 1444.564207ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 14.234941ms
+[debug]               Load.loadUnit(file:/home/inf/Documents/inf/Datenstrukturen/project/project/, ...) took 1718.330488ms
+[debug]             Load.apply: load took 1935.652386ms
+[debug]             Load.apply: resolveProjects took 11.17293ms
+[debug]             Load.apply: finalTransforms took 144.571353ms
+[debug]             Load.apply: config.delegates took 13.774379ms
+[debug]             Load.apply: Def.make(settings)... took 1012.362794ms
+[debug]             Load.apply: structureIndex took 299.050586ms
+[debug]             Load.apply: mkStreams took 2.827417ms
+[info] loading project definition from /home/inf/Documents/inf/Datenstrukturen/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 5435.959797ms
+[debug]           Load.loadUnit: defsScala took 0.012385ms
+[debug] [Loading] Scanning directory /home/inf/Documents/inf/Datenstrukturen/project
+[debug]             Load.loadUnit: mkEval took 0.372113ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/inf/Documents/inf/Datenstrukturen/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.862565 ms
+[info] loading settings for project datenstrukturen-build from metals.sbt...
+[debug]               Load.resolveProject(datenstrukturen-build) took 57.681902ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id datenstrukturen-build, base: /home/inf/Documents/inf/Datenstrukturen/project, plugins: List(<none>))) took 64.525937ms
+[debug] [Loading] Done in /home/inf/Documents/inf/Datenstrukturen/project, returning: (datenstrukturen-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 105.368236ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.113355ms
+[debug]         Load.loadUnit(file:/home/inf/Documents/inf/Datenstrukturen/project/, ...) took 5544.479383ms
+[debug]       Load.apply: load took 5556.720389ms
+[debug]       Load.apply: resolveProjects took 0.255563ms
+[debug]       Load.apply: finalTransforms took 84.582599ms
+[debug]       Load.apply: config.delegates took 0.809677ms
+[debug]       Load.apply: Def.make(settings)... took 356.260339ms
+[debug]       Load.apply: structureIndex took 163.935765ms
+[debug]       Load.apply: mkStreams took 0.005317ms
+[info] loading project definition from /home/inf/Documents/inf/Datenstrukturen/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true

@@ -1,0 +1,7 @@
+2025.09.22 08:02:18 INFO  Started: Metals version 1.6.2 in folders '/home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/Geometrie' for client VSCodium 1.104.1.
+2025.09.22 08:02:20 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/Geometrie/src/Geometrie.sc. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 08:02:23 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/Geometrie/src/Geometrie.sc. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 08:02:23 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/Geometrie/src/Geometrie.sc. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 08:02:23 INFO  Shutting down server
+2025.09.22 08:02:23 INFO  shutting down Metals
+2025.09.22 08:02:23 INFO  Exiting server

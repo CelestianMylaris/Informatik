@@ -1,0 +1,80 @@
+2025.09.22 08:03:48 INFO  Started: Metals version 1.6.2 in folders '/home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh' for client VSCodium 1.104.1.
+2025.09.22 08:03:52 INFO  Running List(/home/inf/.local/share/coursier/bin/scala-cli, setup-ide, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh)
+2025.09.22 08:03:52 INFO  Attempting to connect to the build server...
+2025.09.22 08:03:52 INFO  Running BSP server List(/home/inf/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-options-v2.json, --json-launcher-options, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-launcher-options.json, --envs-file, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-envs.json, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh)
+2025.09.22 08:03:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.metals/bsp.trace.json or /home/inf/.cache/metals/bsp.trace.json
+2025.09.22 08:03:53 INFO  BSP server: Starting compilation server
+2025.09.22 08:03:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.2/scala3-compiler_3-3.7.2.pom
+2025.09.22 08:03:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.2/scala3-compiler_3-3.7.2.pom
+2025.09.22 08:03:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.7.2/tasty-core_3-3.7.2.pom
+2025.09.22 08:03:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.2/scala3-library_3-3.7.2.pom
+2025.09.22 08:03:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.7.2/scala3-interfaces-3.7.2.pom
+2025.09.22 08:03:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.7.2/tasty-core_3-3.7.2.pom
+2025.09.22 08:03:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.7.2/scala3-interfaces-3.7.2.pom
+2025.09.22 08:03:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.2/scala3-library_3-3.7.2.pom
+2025.09.22 08:03:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.7.2/tasty-core_3-3.7.2.jar
+2025.09.22 08:03:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.2/scala3-compiler_3-3.7.2.jar
+2025.09.22 08:03:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.2/scala3-library_3-3.7.2.jar
+2025.09.22 08:03:56 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.7.2/scala3-interfaces-3.7.2.jar
+2025.09.22 08:03:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.7.2/tasty-core_3-3.7.2.jar
+2025.09.22 08:03:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.7.2/scala3-interfaces-3.7.2.jar
+2025.09.22 08:03:56 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.2/scala3-library_3-3.7.2.jar
+2025.09.22 08:03:58 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.7.2/scala3-compiler_3-3.7.2.jar
+2025.09.22 08:03:58 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.7.2/scala3-sbt-bridge-3.7.2.pom
+2025.09.22 08:03:58 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.7.2/scala3-sbt-bridge-3.7.2.pom
+2025.09.22 08:03:58 INFO  BSP server: Downloading https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.7.2/scala3-sbt-bridge-3.7.2.pom.sha1
+2025.09.22 08:03:58 INFO  BSP server: Downloaded https://repo.scala-lang.org/artifactory/maven-nightlies/org/scala-lang/scala3-sbt-bridge/3.7.2/scala3-sbt-bridge-3.7.2.pom.sha1
+2025.09.22 08:03:58 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.2/scala3-sbt-bridge-3.7.2.pom
+2025.09.22 08:03:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.2/scala3-sbt-bridge-3.7.2.pom
+2025.09.22 08:03:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.2/scala3-sbt-bridge-3.7.2.jar
+2025.09.22 08:03:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.7.2/scala3-sbt-bridge-3.7.2.jar
+2025.09.22 08:03:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.2/scala3-library_3-3.7.2-sources.jar
+2025.09.22 08:03:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.7.2/scala3-library_3-3.7.2-sources.jar
+2025.09.22 08:03:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom
+2025.09.22 08:03:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.pom
+2025.09.22 08:03:59 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2025.09.22 08:03:59 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.10.0/semanticdb-javac-0.10.0.jar
+2025.09.22 08:04:00 INFO  time: Connected to build server in 7.93s
+2025.09.22 08:04:00 INFO  Connected to Build server: scala-cli v1.9.0
+2025.09.22 08:04:01 INFO  compiling scala-fz_d5c0a6989e (2 scala sources and 1 java source)
+2025.09.22 08:04:04 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/FahrzeugS.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 08:04:10 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/FahrzeugS.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 08:04:10 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/FahrzeugS.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 08:04:10 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/FahrzeugS.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.09.22 08:04:10 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/FahrzeugS.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Sep 22, 2025 8:04:11 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.09.22 08:04:13 INFO  time: Imported build in 13s
+2025.09.22 08:04:13 INFO  compiling scala-fz_d5c0a6989e (2 scala sources and 1 java source)
+2025.09.22 08:04:17 INFO  time: compiled scala-fz_d5c0a6989e in 3.68s
+2025.09.22 08:04:24 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.
+2025.09.22 08:04:28 INFO  time: indexed workspace in 14s
+2025.09.22 08:04:28 INFO  compiling scala-fz_d5c0a6989e (2 scala sources and 1 java source)
+2025.09.22 08:04:31 INFO  time: compiled scala-fz_d5c0a6989e in 2.73s
+2025.09.22 08:04:45 INFO  Started: Metals version 1.6.2 in folders '/home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh' for client Neovim 0.11.4+gcec0ecabd8.[0m
+2025.09.22 08:04:46 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/FahrzeugS.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.22 08:04:46 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/FahrzeugS.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.22 08:04:46 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/FahrzeugS.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.22 08:04:46 INFO  Attempting to connect to the build server...[0m
+2025.09.22 08:04:46 INFO  Running BSP server List(/home/inf/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-options-v2.json, --json-launcher-options, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-launcher-options.json, --envs-file, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-envs.json, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh)[0m
+2025.09.22 08:04:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.metals/bsp.trace.json or /home/inf/.cache/metals/bsp.trace.json[0m
+2025.09.22 08:04:46 INFO  time: Connected to build server in 0.97s[0m
+2025.09.22 08:04:47 INFO  Connected to Build server: scala-cli v1.9.0[0m
+2025.09.22 08:04:47 INFO  time: Imported build in 0.14s[0m
+2025.09.22 08:04:47 INFO  compiling scala-fz_d5c0a6989e (2 scala sources and 1 java source)[0m
+2025.09.22 08:04:49 INFO  compiling scala-fz_d5c0a6989e (2 scala sources and 1 java source)[0m
+2025.09.22 08:04:50 INFO  time: compiled scala-fz_d5c0a6989e in 1.39s[0m
+2025.09.22 08:04:53 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2025.09.22 08:04:53 INFO  time: indexed workspace in 5.45s[0m
+2025.09.22 08:04:53 INFO  compiling scala-fz_d5c0a6989e (2 scala sources and 1 java source)[0m
+2025.09.22 08:04:53 INFO  time: compiled scala-fz_d5c0a6989e in 0.63s[0m
+Sep 22, 2025 8:04:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2025.09.22 09:19:19 INFO  Running BSP server List(/home/inf/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-options-v2.json, --json-launcher-options, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-launcher-options.json, --envs-file, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-envs.json, /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh)
+2025.09.22 09:19:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.metals/bsp.trace.json or /home/inf/.cache/metals/bsp.trace.json
+2025.09.22 09:19:19 INFO  BSP server: Bloop 'bsp' command exited with code 1. Something may be wrong with the current configuration.[0m
+2025.09.22 09:19:19 INFO  BSP server: Running the clean sub-command to clear the working directory and remove caches might help.[0m
+2025.09.22 09:19:19 INFO  BSP server: If the error persists, please report the issue as a bug and attach a log with increased verbosity by passing -v -v -v.[0m
+2025.09.22 09:19:20 INFO  Shutting down server[0m
+2025.09.22 09:19:20 INFO  shutting down Metals[0m
+2025.09.22 09:19:20 INFO  Shut down connection with build server.[0m

@@ -1,0 +1,20 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "/home/inf/.local/share/coursier/bin/.scala-cli.aux",
+    "bsp",
+    "--json-options",
+    "/home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-options-v2.json",
+    "--json-launcher-options",
+    "/home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-launcher-options.json",
+    "--envs-file",
+    "/home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh/.scala-build/ide-envs.json",
+    "/home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/scala-fz.roh"
+  ],
+  "version": "1.9.0",
+  "bspVersion": "2.1.1",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

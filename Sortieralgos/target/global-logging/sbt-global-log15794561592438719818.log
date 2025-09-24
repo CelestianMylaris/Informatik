@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.5 (Ubuntu Java 17.0.13)
+[debug] Load.defaultLoad until apply took 352.585456ms
+[debug]           Load.loadUnit: plugins took 182.939499ms
+[debug]           Load.loadUnit: defsScala took 0.377005ms
+[debug] [Loading] Scanning directory /home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala Sortieren J11/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala Sortieren J11/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 77.899177 ms
+[debug]               Load.resolveProject(scala-sortieren-j11-build) took 207.692707ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-sortieren-j11-build, base: /home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala Sortieren J11/project, plugins: List(<none>))) took 357.921605ms
+[debug] [Loading] Done in /home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala Sortieren J11/project, returning: (scala-sortieren-j11-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 431.491395ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.524025ms
+[debug]         Load.loadUnit(file:/home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala%20Sortieren%20J11/project/, ...) took 635.079079ms
+[debug]       Load.apply: load took 1390.775619ms
+[debug]       Load.apply: resolveProjects took 43.427067ms
+[debug]       Load.apply: finalTransforms took 368.891761ms
+[debug]       Load.apply: config.delegates took 16.753545ms
+[debug]       Load.apply: Def.make(settings)... took 1268.800303ms
+[debug]       Load.apply: structureIndex took 370.117617ms
+[debug]       Load.apply: mkStreams took 2.339902ms
+[info] loading project definition from /home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala Sortieren J11/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 6502.907244ms
+[debug]     Load.loadUnit: defsScala took 0.00596ms
+[debug] [Loading] Scanning directory /home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala Sortieren J11
+[debug]       Load.loadUnit: mkEval took 18.142227ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 10.761567 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 4.414466ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala Sortieren J11, plugins: List(<none>))) took 17.080656ms
+[debug] [Loading] Done in /home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala Sortieren J11, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 414.308682ms
+[debug]     Load.loadUnit: cleanEvalClasses took 16.146731ms
+[debug]   Load.loadUnit(file:/home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala%20Sortieren%20J11/, ...) took 6935.767725ms
+[debug] Load.apply: load took 6968.673307ms
+[debug] Load.apply: resolveProjects took 0.293307ms
+[debug] Load.apply: finalTransforms took 54.948603ms
+[debug] Load.apply: config.delegates took 0.671568ms
+[debug] Load.apply: Def.make(settings)... took 314.297818ms
+[debug] Load.apply: structureIndex took 142.769521ms
+[debug] Load.apply: mkStreams took 0.004522ms
+[info] set current project to Scala Sortieren J11 (in build file:/home/inf/Nextcloud/Homeverzeichnis/Cloudsync/Scala%20Sortieren%20J11/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/inf/.sbt/1.0/server/444e60849cf6e8775269/sock
+[debug] Writing bsp connection file
+[info] started sbt server

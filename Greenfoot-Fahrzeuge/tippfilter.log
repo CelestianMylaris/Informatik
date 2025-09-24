@@ -1,0 +1,76 @@
+This folder was generated on 2025-02-24 11:23:33
+by Tippfilter version: 0.5-rc4-3-g3f1bba0 (development or dirty build), built Freitag 2024-06-21 at 22:50:05)
+
+using the following configuration:
+
+   original folder:  /home/urs/vced/java-oop-fahrzeuge
+   destination folder:   /home/urs/kickme/scala-fz.roh
+   overwrite destination folder:   true
+   config files (order parsed):   /home/urs/vced/java-oop-fahrzeuge/greenfoot.tippfilter
+   filtered patterns:    [file://*.java, file://*.scala]
+   configured wildcards:   {file://*.tippfilter=EXCLUDED, file://*.class=EXCLUDED, file://*.ctxt=EXCLUDED, dir://.git=EXCLUDED, file://.gitignore=EXCLUDED, dir://doc=EXCLUDED, dir://bin=EXCLUDED, file:/.classpath=EXCLUDED, file:/.project=EXCLUDED, file://project.greenfoot=UNSPECIFIED, file:/*.scala=UNSPECIFIED, dir:/lib=UNSPECIFIED, dir:/images=UNSPECIFIED, file://Parkplatz.java=UNSPECIFIED, file:/*.class=EXCLUDED, file:/fahrzeuge-ABs.odt=UNSPECIFIED}
+   default audience:     RAW
+   all sections requested:   false
+   write log file:   true
+   write filter date:   true
+   input encoding:   auto-detect
+   output encoding:   UTF-8
+
+38 file(s) were excluded, not counting files in excluded folders.
+The remaining sections have one the statuses...
+ -- : section wasn't requested.
+EXCL: section was explicitly excluded;
+RAW/TIPP/HELP/TEAC-her/MARK-up: section was filtered for that audience;
+
+    section name:                                                    |stat| read > wrote|
+------------------------------------------------------------------------------------------
+  1 dir:/                                                            |RAW |             |
+  2    file:/Ladegueter.scala                                        |RAW |utf-8 > utf-8|
+  3    file:/FahrzeugS.scala                                         |RAW |utf-8 > utf-8|
+  4    file:/Teddy_S.tasty                                           | -- |             |
+  5    file:/Bombe_S.tasty                                           | -- |             |
+  6    file:/Fass_S.tasty                                            | -- |             |
+  7    file:/Ladegut_S.tasty                                         | -- |             |
+  8    file:/Bombe.tasty                                             | -- |             |
+  9    file:/Fass.tasty                                              | -- |             |
+ 10    file:/Teddy.tasty                                             | -- |             |
+ 11    file:/Ladegut.tasty                                           | -- |             |
+ 12    file:/LKWS.tasty                                              | -- |             |
+ 13    file:/KfzS.tasty                                              | -- |             |
+ 14    file:/FahrzeugS.tasty                                         | -- |             |
+ 15    file:/FahrradS.tasty                                          | -- |             |
+ 16    file:/PKWS.tasty                                              | -- |             |
+ 17    file:/Fahrzeug.java                                           | -- |utf-8 >  --  |
+ 18    file:/project.greenfoot                                       |RAW |             |
+ 19    file:/fahrzeuge-ABs.odt                                       |RAW |             |
+ 20    file:/Teddy.java                                              | -- |utf-8 >  --  |
+ 21    file:/Parkplatz.java                                          |RAW |utf-8 > utf-8|
+ 22    file:/PKW.java                                                | -- |utf-8 >  --  |
+ 23    file:/Ladegut.java                                            | -- |utf-8 >  --  |
+ 24    file:/LKW.java                                                | -- |utf-8 >  --  |
+ 25    file:/LICENSE                                                 | -- |             |
+ 26    file:/Kfz.java                                                | -- |utf-8 >  --  |
+ 27    file:/ILadegut.java                                           | -- |utf-8 >  --  |
+ 28    file:/Fernsteuerung.java                                      | -- |utf-8 >  --  |
+ 29    file:/Fass.java                                               | -- |utf-8 >  --  |
+ 30    file:/Fahrrad.java                                            | -- |utf-8 >  --  |
+ 31    file:/Bombe.java                                              | -- |utf-8 >  --  |
+ 32    dir:/sounds                                                   | -- |             |
+ 33    dir:/images                                                   |RAW |             |
+ 34       file:/.../lasterLadeklappeOffen.png                        |RAW |             |
+ 35       file:/.../teddybear.png                                    |RAW |             |
+ 36       file:/.../rc.jpeg                                          |RAW |             |
+ 37       file:/.../pik.png                                          |RAW |             |
+ 38       file:/.../laster.png                                       |RAW |             |
+ 39       file:/.../fahrrad.png                                      |RAW |             |
+ 40       file:/.../car.png                                          |RAW |             |
+ 41       file:/.../bus-4.png                                        |RAW |             |
+ 42       file:/.../bomb.png                                         |RAW |             |
+ 43       file:/.../barrel.png                                       |RAW |             |
+ 44       file:/.../balloon1.png                                     |RAW |             |
+ 45       file:/.../autos_01.png                                     |RAW |             |
+ 46    dir:/lib                                                      |RAW |             |
+ 47       file:/.../bluejcore.jar                                    |RAW |             |
+ 48       file:/.../greenfoot.jar                                    |RAW |             |
+ 49    file:/README.md                                               | -- |             |
+ 50    dir:/.git                                                     |EXCL|             |
