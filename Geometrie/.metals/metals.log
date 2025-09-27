@@ -1,7 +1,99 @@
-2025.09.22 08:02:18 INFO  Started: Metals version 1.6.2 in folders '/home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/Geometrie' for client VSCodium 1.104.1.
-2025.09.22 08:02:20 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/Geometrie/src/Geometrie.sc. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.22 08:02:23 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/Geometrie/src/Geometrie.sc. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.22 08:02:23 INFO  no build target found for /home/inf/Documents/inf/Nextcloud/Homeverzeichnis/Informatig/Geometrie/src/Geometrie.sc. Using presentation compiler with project's scala-library version: 3.3.6
-2025.09.22 08:02:23 INFO  Shutting down server
-2025.09.22 08:02:23 INFO  shutting down Metals
-2025.09.22 08:02:23 INFO  Exiting server
+2025.09.27 20:35:32 INFO  Started: Metals version 1.6.2 in folders '/home/inf/Documents/Schule/Geometrie' for client Neovim 0.11.4+gcec0ecabd8.[0m
+2025.09.27 20:35:33 INFO  no build target found for /home/inf/Documents/Schule/Geometrie/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 20:35:33 INFO  no build target found for /home/inf/Documents/Schule/Geometrie/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 20:35:33 INFO  no build target found for /home/inf/Documents/Schule/Geometrie/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 20:35:35 INFO  running '/home/inf/.local/share/coursier/bin/sbt -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2025.09.27 20:35:35 INFO  no build target found for /home/inf/Documents/Schule/Geometrie/build.sbt. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 20:35:38 INFO  [info] welcome to sbt 1.11.6 (Ubuntu Java 21.0.8)[0m
+2025.09.27 20:35:42 INFO  [info] loading settings for project geometrie-build-build from metals.sbt...[0m
+2025.09.27 20:35:43 INFO  [info] loading project definition from /home/inf/Documents/Schule/Geometrie/project/project[0m
+2025.09.27 20:35:47 INFO  [info] loading settings for project geometrie-build from metals.sbt...[0m
+2025.09.27 20:35:47 INFO  [info] loading project definition from /home/inf/Documents/Schule/Geometrie/project[0m
+2025.09.27 20:35:50 INFO  [success] Generated .bloop/geometrie-build.json[0m
+2025.09.27 20:35:50 INFO  [success] Total time: 3 s, completed Sep 27, 2025, 8:35:50 PM[0m
+2025.09.27 20:35:52 INFO  [info] loading settings for project root from build.sbt...[0m
+2025.09.27 20:35:52 INFO  [info] set current project to Geometrie (in build file:/home/inf/Documents/Schule/Geometrie/)[0m
+2025.09.27 20:35:53 INFO  [success] Generated .bloop/root.json[0m
+2025.09.27 20:35:53 INFO  [success] Generated .bloop/root-test.json[0m
+2025.09.27 20:35:53 INFO  [success] Total time: 1 s, completed Sep 27, 2025, 8:35:53 PM[0m
+2025.09.27 20:35:54 INFO  time: ran 'sbt bloopInstall' in 18s[0m
+2025.09.27 20:35:54 INFO  Attempting to connect to the build server...[0m
+2025.09.27 20:35:54 INFO  Found a Bloop server running[0m
+2025.09.27 20:35:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/inf/Documents/Schule/Geometrie/.metals/bsp.trace.json or /home/inf/.cache/metals/bsp.trace.json[0m
+2025.09.27 20:35:54 INFO  Attempting to connect to the build server...[0m
+2025.09.27 20:35:54 INFO  Found a Bloop server running[0m
+2025.09.27 20:35:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/inf/Documents/Schule/Geometrie/project/.metals/bsp.trace.json or /home/inf/.cache/metals/bsp.trace.json[0m
+2025.09.27 20:35:54 INFO  time: Connected to build server in 0.52s[0m
+2025.09.27 20:35:54 INFO  Connected to Build server: Bloop v2.0.13[0m
+2025.09.27 20:35:54 INFO  time: Imported build in 0.15s[0m
+2025.09.27 20:36:11 INFO  time: indexed workspace in 16s[0m
+2025.09.27 20:43:22 INFO  compiling root (2 scala sources)[0m
+2025.09.27 20:43:22 INFO  time: compiled root in 0.45s[0m
+2025.09.27 20:43:22 INFO  compiling root (2 scala sources)[0m
+2025.09.27 20:43:22 INFO  time: compiled root in 0.33s[0m
+2025.09.27 20:45:19 INFO  Shutting down server[0m
+2025.09.27 20:45:19 INFO  shutting down Metals[0m
+2025.09.27 20:45:19 INFO  Shut down connection with build server.[0m
+2025.09.27 20:45:19 INFO  Shut down connection with build server.[0m
+2025.09.27 20:45:22 INFO  Exiting server[0m
+2025.09.27 20:47:28 INFO  Started: Metals version 1.6.2 in folders '/home/inf/Documents/Schule/Geometrie' for client Neovim 0.11.4+gcec0ecabd8.[0m
+2025.09.27 20:47:29 INFO  no build target found for /home/inf/Documents/Schule/Geometrie/src/main/scala/Geo.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 20:47:29 INFO  no build target found for /home/inf/Documents/Schule/Geometrie/src/main/scala/Geo.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 20:47:29 INFO  no build target found for /home/inf/Documents/Schule/Geometrie/src/main/scala/Geo.scala. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 20:47:29 INFO  Attempting to connect to the build server...[0m
+2025.09.27 20:47:29 INFO  Found a Bloop server running[0m
+2025.09.27 20:47:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/inf/Documents/Schule/Geometrie/.metals/bsp.trace.json or /home/inf/.cache/metals/bsp.trace.json[0m
+2025.09.27 20:47:29 INFO  Attempting to connect to the build server...[0m
+2025.09.27 20:47:29 INFO  Found a Bloop server running[0m
+2025.09.27 20:47:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/inf/Documents/Schule/Geometrie/project/.metals/bsp.trace.json or /home/inf/.cache/metals/bsp.trace.json[0m
+2025.09.27 20:47:29 INFO  time: Connected to build server in 0.48s[0m
+2025.09.27 20:47:29 INFO  Connected to Build server: Bloop v2.0.13[0m
+2025.09.27 20:47:29 INFO  time: Imported build in 0.17s[0m
+2025.09.27 20:47:38 INFO  time: indexed workspace in 8.15s[0m
+2025.09.27 20:47:39 INFO  compiling root (2 scala sources)[0m
+2025.09.27 20:47:39 INFO  time: compiled root in 0.4s[0m
+Sep 27, 2025 8:47:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Exception in thread "pool-7-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:208)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:153)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025.09.27 20:52:02 INFO  compiling root (2 scala sources)[0m
+2025.09.27 20:52:02 INFO  time: compiled root in 0.52s[0m
+2025.09.27 20:52:12 INFO  compiling root (2 scala sources)[0m
+2025.09.27 20:52:12 INFO  time: compiled root in 0.39s[0m
+2025.09.27 20:52:12 INFO  compiling root (2 scala sources)[0m
+2025.09.27 20:52:12 INFO  time: compiled root in 0.41s[0m
+2025.09.27 20:52:36 INFO  compiling root (1 scala source)[0m
+2025.09.27 20:52:36 INFO  time: compiled root in 0.9s[0m
+2025.09.27 20:52:36 INFO  compiling root (1 scala source)[0m
+2025.09.27 20:52:38 INFO  time: compiled root in 0.41s[0m
+Sep 27, 2025 8:52:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 192
+2025.09.27 20:53:21 WARN  Invalid text document uri received from build server: file:///home/inf/Documents/Schule/Geometrie/src/main/scala/Geo.scala[0m
+2025.09.27 20:53:21 INFO  time: compiled root in 3ms[0m
+2025.09.27 20:53:21 INFO  compiling root (1 scala source)[0m
+2025.09.27 20:53:23 INFO  time: compiled root in 1.18s[0m
+2025.09.27 20:54:25 INFO  compiling root (1 scala source)[0m
+2025.09.27 20:54:25 INFO  time: compiled root in 0.6s[0m
+2025.09.27 20:54:25 INFO  compiling root (1 scala source)[0m
+2025.09.27 20:54:25 INFO  time: compiled root in 0.31s[0m
+2025.09.27 20:54:57 WARN  Invalid text document uri received from build server: file:///home/inf/Documents/Schule/Geometrie/src/main/scala/Geo.scala[0m
+2025.09.27 20:54:57 INFO  time: compiled root in 4ms[0m
+2025.09.27 20:54:57 INFO  compiling root (1 scala source)[0m
+2025.09.27 20:54:57 INFO  time: compiled root in 0.29s[0m
+2025.09.27 20:55:33 WARN  Invalid text document uri received from build server: file:///home/inf/Documents/Schule/Geometrie/src/main/scala/Geo.scala[0m
+2025.09.27 20:55:33 INFO  time: compiled root in 6ms[0m
+2025.09.27 20:55:33 INFO  compiling root (1 scala source)[0m
+2025.09.27 20:55:33 INFO  time: compiled root in 0.35s[0m
+2025.09.27 20:56:29 WARN  Invalid text document uri received from build server: file:///home/inf/Documents/Schule/Geometrie/src/main/scala/Geo.scala[0m
+2025.09.27 20:56:29 INFO  time: compiled root in 8ms[0m
+2025.09.27 20:56:29 INFO  compiling root (1 scala source)[0m
+2025.09.27 20:56:30 INFO  time: compiled root in 0.88s[0m
+2025.09.27 20:57:52 INFO  Shutting down server[0m
+2025.09.27 20:57:52 INFO  shutting down Metals[0m
+2025.09.27 20:57:52 INFO  Shut down connection with build server.[0m
+2025.09.27 20:57:52 INFO  Shut down connection with build server.[0m
