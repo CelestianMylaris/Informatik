@@ -1,0 +1,44 @@
+2025.09.27 17:12:53 INFO  Started: Metals version 1.6.2 in folders '/home/inf/Documents/Schule/Datenstrukturen/src/main' for client Neovim 0.11.4+gcec0ecabd8.[0m
+2025.09.27 17:12:54 INFO  no build target found for /home/inf/Documents/Schule/Datenstrukturen/src/main/BTree.sc. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 17:12:54 INFO  no build target found for /home/inf/Documents/Schule/Datenstrukturen/src/main/BTree.sc. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 17:12:55 INFO  Running List(/home/inf/.local/share/coursier/bin/scala-cli, setup-ide, /home/inf/Documents/Schule/Datenstrukturen/src/main)[0m
+2025.09.27 17:12:56 INFO  Attempting to connect to the build server...[0m
+2025.09.27 17:12:56 INFO  Running BSP server List(/home/inf/.local/share/coursier/bin/.scala-cli.aux, bsp, --json-options, /home/inf/Documents/Schule/Datenstrukturen/src/main/.scala-build/ide-options-v2.json, --json-launcher-options, /home/inf/Documents/Schule/Datenstrukturen/src/main/.scala-build/ide-launcher-options.json, --envs-file, /home/inf/Documents/Schule/Datenstrukturen/src/main/.scala-build/ide-envs.json, /home/inf/Documents/Schule/Datenstrukturen/src/main)[0m
+2025.09.27 17:12:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/inf/Documents/Schule/Datenstrukturen/src/main/.metals/bsp.trace.json or /home/inf/.cache/metals/bsp.trace.json[0m
+2025.09.27 17:12:57 INFO  BSP server: Starting compilation server[0m
+2025.09.27 17:12:58 WARN  no build target for: /home/inf/Documents/Schule/Datenstrukturen/src/main/BTree.sc[0m
+Sep 27, 2025 5:12:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2025.09.27 17:12:58 INFO  no build target found for /home/inf/Documents/Schule/Datenstrukturen/src/main/BTree.sc. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 17:12:58 INFO  no build target found for /home/inf/Documents/Schule/Datenstrukturen/src/main/BTree.sc. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 17:13:01 WARN  no build target for: /home/inf/Documents/Schule/Datenstrukturen/src/main/BTree.sc[0m
+2025.09.27 17:13:01 INFO  no build target found for /home/inf/Documents/Schule/Datenstrukturen/src/main/BTree.sc. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 17:13:01 INFO  no build target found for /home/inf/Documents/Schule/Datenstrukturen/src/main/BTree.sc. Using presentation compiler with project's scala-library version: 3.3.6[0m
+2025.09.27 17:13:01 INFO  time: Connected to build server in 5.67s[0m
+2025.09.27 17:13:01 INFO  Connected to Build server: scala-cli v1.9.0[0m
+2025.09.27 17:13:02 INFO  time: Imported build in 0.3s[0m
+2025.09.27 17:13:03 INFO  compiling main_d5c0a6989e (2 scala sources)[0m
+2025.09.27 17:13:06 WARN  Could not find java sources in /usr/lib/jvm/src.zip, /usr/lib/jvm/lib/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/src.zip, /usr/lib/jvm/java-21-openjdk-amd64/lib/src.zip. Java symbols will not be available.[0m
+2025.09.27 17:13:10 INFO  time: indexed workspace in 7.81s[0m
+2025.09.27 17:13:10 INFO  Shutting down server[0m
+2025.09.27 17:13:10 INFO  shutting down Metals[0m
+2025.09.27 17:13:10 INFO  Shut down connection with build server.[0m
+2025.09.27 17:13:10 INFO  Cancelling compilation on scala-cli server[0m
+2025.09.27 17:13:10 INFO  Cancelling compilation on scala-cli server[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@31a5c39e[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 302]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

@@ -1,0 +1,2 @@
+2025-09-24 22:54:04.072738+02:00 database: opening /home/inf/Documents/Schule/Datenstrukturen/.metals/metals
+org.h2.message.DbException: Error opening database: "Sleep interrupted" [8000-232]
