@@ -1,5 +1,5 @@
 # Geilen Informatiker
-## Luca stinkt
+## Samuel stinkt
 
 Sharing is Caring 
 
