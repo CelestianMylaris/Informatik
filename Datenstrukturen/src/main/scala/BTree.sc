@@ -1,4 +1,17 @@
 object BTree:
+  def preOrder[A](baum: BTree[A], action: A => Unit): Unit =
+    if baum == null then return
+    action(baum.inhalt)
+    preOrder(baum.links, action)
+    preOrder(baum.rechts, action)
+
+  def postOrder[A](baum: BTree[A], action: A => Unit): Unit =
+    if baum == null then return
+    postOrder(baum.links, action)
+    postOrder(baum.rechts, action)
+    action(baum.inhalt)
+    
+
   def size[A](baum: BTree[A]): Int =
     if baum == null then 0
     else 1 + size(baum.links) + size(baum.rechts)
@@ -23,6 +36,9 @@ object BTree:
     contains(wert, akt.links) || contains(wert, akt.rechts)
 
 class BTree[A](var inhalt: A, var links: BTree[A] = null , var rechts: BTree[A] = null):
+  def preOrder(action: A => Unit): Unit =
+    BTree.preOrder(this, action)
+
   def size: Int =
     BTree.size(this)
 
@@ -40,4 +56,31 @@ val baum = BTree(
   BTree(2, BTree(3), BTree(4)),
   BTree(4)
 )
+
+val btl = BTree(
+  1,
+  BTree(
+    2,
+    BTree(
+      3
+    )
+  )
+)
+
+val btr = BTree(
+  1,
+  null,
+  BTree(
+    2,
+    null,
+    BTree(
+      3
+    )
+  )
+)
+
+
+BTree.preOrder(baum, println)
+BTree.preOrder(lb, println(_))
+BTree.preOrder(baum, i => println(i + ","))
 
